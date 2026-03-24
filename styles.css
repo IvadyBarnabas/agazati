@@ -37,6 +37,7 @@ nav a{
     text-align: center;
     margin: auto;
     border-radius: 10px;
+    transition: background-color 0.2s, color 0.2s;
 }
 nav a:hover{
     text-decoration: underline;
@@ -46,10 +47,18 @@ nav #kezdo{
     color: greenyellow;
     border: 1px solid greenyellow;
 }
+nav #kezdo:hover{
+    background-color: greenyellow;
+    color: black;
+}
 nav #tab{
     background-color: greenyellow;
     border: 1px solid black;
     color: black;
+}
+nav #tab:hover{
+    background-color: black;
+    color: greenyellow;
 }
 aside{
     padding: 10px;
